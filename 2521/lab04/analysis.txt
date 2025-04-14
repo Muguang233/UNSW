@@ -1,0 +1,41 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of either:
+  - n, where n is the number of nodes in the tree, or
+  - h, where h is the height of the tree
+
+=================
+  bstNumLeaves
+=================
+
+- Worst case time complexity: O(n)
+
+- Explanation: it goes through every node in the tree since it has to count number of all leaves no matter its balanced or not
+
+=================
+    bstRange
+=================
+
+- Worst case time complexity: O(h)
+
+- Explanation: unlike previous, the range will be with smallest number and largest, which means we onlyneed to keep going left of the tree until leaf
+
+
+=================
+ bstDeleteLeaves
+=================
+
+- Worst case time complexity: O(n)
+
+- Explanation: it has to go every node since it has to delete every leaves
+
+=================
+  bstLevelOrder
+=================
+
+- Worst case time complexity: O(n)
+
+- Explanation: it is a data order, so it has to go through every node
+
+
